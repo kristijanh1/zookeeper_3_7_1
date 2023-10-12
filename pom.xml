@@ -24,7 +24,7 @@
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
     <version>23</version>
-    <relativePath />
+    <relativePath/>
     <!-- no parent resolution -->
   </parent>
   <groupId>org.apache.zookeeper</groupId>
@@ -343,7 +343,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -356,7 +356,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -369,7 +369,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -382,7 +382,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -395,7 +395,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                   </pluginExecutions>
@@ -438,7 +438,7 @@
     <hamcrest.version>2.2</hamcrest.version>
     <commons-cli.version>1.5.0</commons-cli.version>
     <netty.version>4.1.86.Final</netty.version>
-    <jetty.version>9.4.49.v20220914</jetty.version>
+    <jetty.version>9.4.53.v20231009</jetty.version>
     <jackson.version>2.13.4.2</jackson.version>
     <jline.version>2.14.6</jline.version>
     <snappy.version>1.1.9.1</snappy.version>
@@ -853,8 +853,8 @@
             <configuration>
               <exportAntProperties>true</exportAntProperties>
               <target>
-                <property environment="env" />
-                <exec executable="hostname" outputproperty="host.name" />
+                <property environment="env"/>
+                <exec executable="hostname" outputproperty="host.name"/>
               </target>
             </configuration>
           </execution>
